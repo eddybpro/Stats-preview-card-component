@@ -40,7 +40,10 @@ main{
 @media screen and (max-width:686px) {
     main{
         grid-auto-rows: minmax(100px, 1fr);
-        grid-template-areas: "img-box"          "txt-box"
+        grid-template-areas: "img-box" 
+        "img-box"
+        "txt-box"
+        "txt-box"
         "txt-box";
         margin: 1rem;
     }
